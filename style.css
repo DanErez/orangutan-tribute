@@ -1,0 +1,56 @@
+h1 {
+  color: black;
+  font-size: 60px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#img-caption{
+  font-size: 40px;
+}
+#tribute-info{
+  font-size: 20px;
+}
+#tribute-link{
+  font-size: 25px;
+  color: blue;
+}
+#img-div{
+ background-color: white;
+}
+
+ #image {
+ max-width: 100%;
+ width: 100%;
+ display: block;
+ height: auto;
+ }
